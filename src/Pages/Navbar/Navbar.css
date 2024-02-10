@@ -1,0 +1,80 @@
+.navbar {
+    background-color:#9ec9d7; 
+    padding-left: 10px;
+    color:#fff;
+
+  }
+  
+  .navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 15px !important;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 10px; 
+    color:#fff !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: white !important; 
+    font-size: 18px;
+  }
+  
+  .btn1,
+  .btn2 {
+    background-color: #6d8faa; 
+    color: white;
+    border: none; 
+    padding: 7px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  .form-check-input {
+    margin-right: 5px; 
+  }
+  
+  .form-check-label {
+    color: white; 
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    width: 40px; 
+    height: auto; 
+  }
+
+  .brand-text {
+    margin-left: 10px; 
+  }
+
+  .form-check {
+    position: relative;
+  }
+  
+  /* Dark mode switch scrollbar */
+  .form-check-input {
+    position: absolute;
+
+    z-index: 1; /* Ensure the scrollbar is in front of other elements */
+    right: 90px;
+    top:50%;
+    transform:translateY(-50%);
+    
+  }
+
+  .navbar-light {
+    background-color: #276678;
+    color:#fff !important;
+  }
+  
+  /* Dark mode styles */
+  .navbar-dark {
+    background-color: #343a40; 
+    color: #fff; 
+  }

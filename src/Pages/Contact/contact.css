@@ -1,0 +1,40 @@
+.contactus-section {
+    padding: 100px 0;
+    min-height: calc(100vh - 100px); /* Adjust the height of the section */
+  }
+  
+  .contact-leftside {
+    text-align: center;
+  }
+  
+  .contact-rightside form {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .contact-input-feild input {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ced4da; /* Add a border */
+    padding: 40px; /* Add some padding */
+  }
+  
+  .form-checkbox-style {
+    margin-top: 20px;
+  }
+  
+  .btn-style {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-style:hover {
+    background-color: #0056b3;
+  }
+  
